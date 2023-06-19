@@ -13,5 +13,5 @@ if (!!window.SharedWorker) {
     }
 }
 btn.onclick = () => {
-    window.open(window.origin);
+    window.open(window.location.href);
 }
